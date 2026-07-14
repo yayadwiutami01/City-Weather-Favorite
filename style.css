@@ -1,0 +1,95 @@
+body {
+
+    font-family: Arial, sans-serif;
+
+    background: #eef4fa;
+
+}
+
+
+
+.hero {
+
+
+    height: 350px;
+
+    background:
+
+        linear-gradient(rgba(0, 0, 0, .5),
+            rgba(0, 0, 0, .5)),
+
+        url("https://images.unsplash.com/photo-1477959858617-67f85cf4f1df"
+        );
+
+
+    background-size: cover;
+
+    display: flex;
+
+    align-items: center;
+
+    color: white;
+
+
+}
+
+
+
+.weather-card {
+
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 10px 25px #ccc;
+
+    text-align: center;
+
+}
+
+
+
+#icon {
+
+    font-size: 80px;
+
+}
+
+
+
+#map {
+
+    height: 400px;
+
+    border-radius: 20px;
+
+}
+
+
+
+.card {
+
+    border-radius: 15px;
+
+}
+
+
+
+footer {
+
+
+    background: #111;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+
+    margin-top: 50px;
+
+
+}
